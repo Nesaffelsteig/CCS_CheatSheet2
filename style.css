@@ -1,3 +1,9 @@
+:root {
+  --color1: rgb(255, 178, 62);
+  --color2: rgb(91, 21, 255);
+  --color3: rgba(29, 16, 5, 0.973);
+  --color4: rgb(12, 12, 12);
+}
 * {
   margin: 0;
   padding: 0;
@@ -16,4 +22,13 @@ body {
   background: url(./assets/programming-1857236.jpg) center/cover;
   height: 100vh;
   font-family: "Source Code Pro", monospace;
+  color: var(--color1);
+  display: flex;
+  align-items: center;
+}
+.card {
+  background: var(--color3);
+  border-radius: 20px;
+  margin: 15%;
+  padding: 20px;
 }
