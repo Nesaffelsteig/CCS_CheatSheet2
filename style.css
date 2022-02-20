@@ -70,3 +70,17 @@ h1 {
   height: 70px;
   width: 70px;
 }
+.polygon:after {
+  content: " Text ";
+  position: absolute;
+  color: var(--color1);
+  background: black;
+  border-radius: 5px;
+  top: 10px;
+  left: 40px;
+  transform: rotate(-5deg);
+}
+
+p {
+  line-height: 20px;
+}
